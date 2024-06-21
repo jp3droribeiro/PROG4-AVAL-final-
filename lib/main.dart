@@ -67,7 +67,7 @@ class _ConsultaCepPageState extends State<ConsultaCepPage> {
       }
     } catch (e) {
       setState(() {
-        _mensagem = 'Erro ao consultar o CEP. Verifique sua conexão com a internet.';
+        _mensagem = 'Erro ao consultar o CEP. Verifique a conexão';
         _dadosCep = null;
       });
     }
@@ -77,7 +77,7 @@ class _ConsultaCepPageState extends State<ConsultaCepPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 39, 70, 103),
+        backgroundColor: const Color.fromARGB(255, 35, 81, 112),
         title: Text('Consulta de CEP'),
         
       ),
@@ -143,5 +143,3 @@ class _ConsultaCepPageState extends State<ConsultaCepPage> {
   }
 }
 
-
-// versao 1 -
