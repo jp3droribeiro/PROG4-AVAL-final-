@@ -1,4 +1,4 @@
-# cepapp
+# Aplicativo de Consulta de CEP(Código de Endereçamento Postal) 
 
 A new Flutter project.
 
